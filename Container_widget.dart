@@ -26,7 +26,8 @@ class HelloWorldApp extends StatelessWidget {
       /// container widget is located in center of screen because we put it in child Center widget .
       
       ///  if we remove center widget we find container in up left  by default .
-      
+
+      /// if we don't put width or height , container will be as width and height of Text object and its cover will be as background
     
     child: Center(child: Text('Hello Afraym!')), /// if we remove Center widget , we find Text is located up left of container by deafult
    
@@ -34,7 +35,7 @@ class HelloWorldApp extends StatelessWidget {
 
       /// color is paramter located in container widget .
       
-      /// color widget is used to put color for cover for parent widget . in this example for put color for container widget  
+      /// color widget is used to put color for background for parent widget . in this example for put color for container widget  
       
       height: 60 , /// height of container 
 
