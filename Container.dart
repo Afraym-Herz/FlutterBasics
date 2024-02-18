@@ -36,8 +36,7 @@ class HelloWorldApp extends StatelessWidget {
       ///  If the crossAxisAlignment is CrossAxisAlignment.stretch, instead use tight horizontal constraints that match the incoming max width.
        children: [
 
-       Container( 
-      
+       Container(
       
     child: Center(child: Text('Hello Afraym!')), 
 
@@ -49,7 +48,6 @@ class HelloWorldApp extends StatelessWidget {
 
       Container( 
       
-      
     child: Center(child: Text('Hello Afraym!')), 
 
     color: Colors.indigo ,
@@ -58,7 +56,6 @@ class HelloWorldApp extends StatelessWidget {
      ),  
 
      Container( 
-      
       
     child: Center(child: Text('Hello Afraym!')), 
 
@@ -69,10 +66,6 @@ class HelloWorldApp extends StatelessWidget {
       
        ],
     
-    
-    
-    
-   
    )
   
   ) 
