@@ -62,13 +62,14 @@ class HelloWorldApp extends StatelessWidget {
     color: Colors.red ,
       height: 60 ,
       width: 100, 
-     ),  
+     ),  // Container
       
-       ],
+       ], // children of column
     
-   )
+   ) // Column
   
-  ) 
-    );
+  )  // Scaffold
+      
+    ); // MaterialApp
   }
 }
