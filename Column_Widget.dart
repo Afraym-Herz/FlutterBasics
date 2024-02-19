@@ -23,7 +23,9 @@ class HelloWorldApp extends StatelessWidget {
       
       /// column widget , its width is the big width in all widget in the column widgets  by default
       
-      /// its height is all screen by default , if we don't use mainAxisSize to determine the height of column
+      /// its height is all screen by default , if we don't use mainAxisSize to determine the height of column (min , max) :
+
+      /// min mean the sum of container's heights , max mean the biggest size can be in it
       
       
 
