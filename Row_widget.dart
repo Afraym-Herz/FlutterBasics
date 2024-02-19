@@ -68,7 +68,7 @@ class HelloWorldApp extends StatelessWidget {
       
        ], // children of Row
     
-   ) // Column
+   ) // Row
   
   )  // Scaffold
       
